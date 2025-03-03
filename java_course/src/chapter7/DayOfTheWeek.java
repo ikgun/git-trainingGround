@@ -25,6 +25,5 @@ public class DayOfTheWeek {
         System.out.println("Day : " + daysOfWeek[number - 1]);
 
 
-
     }
 }
