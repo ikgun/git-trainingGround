@@ -23,6 +23,7 @@ public class LetterSearch {
             char currentLetter = text.charAt(i);
             if (currentLetter == 'A' || currentLetter == 'a') {
                 letterFound = true;
+                //break;
             }
         }
 
