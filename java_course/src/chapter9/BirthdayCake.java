@@ -5,7 +5,7 @@ public class BirthdayCake extends Cake {
     protected int candles;
 
     public BirthdayCake() {
-        setFlavor("Chocolate");
+        super("Chocolate");
     }
 
     public int getCandles() {

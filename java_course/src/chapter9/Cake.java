@@ -5,6 +5,11 @@ public class Cake {
     protected String flavor;
     protected double price;
 
+    public Cake(String flavor) {
+        this.flavor = flavor;
+        setPrice(20);
+    }
+
     public String getFlavor() {
         return flavor;
     }
