@@ -6,6 +6,10 @@ public class Person {
     private int age;
     private String gender;
 
+    public Person() {
+        System.out.println("In the Person default constructor.");
+    }
+
     public String getName() {
         return name;
     }
