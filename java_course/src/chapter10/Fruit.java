@@ -8,7 +8,7 @@ public class Fruit {
         this.calories = calories;
     }
 
-    public void makeJuice(){
+    public void makeJuice() {
         System.out.println("Juice is made");
     }
 }
