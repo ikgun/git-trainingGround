@@ -3,10 +3,10 @@ package chapter11;
 public interface Product {
 
     double getPrice();
-    void setPrice();
+    void setPrice(double price);
 
     String getName();
-    void setName();
+    void setName(String name);
 
     String getColor();
     void setColor(String color);
