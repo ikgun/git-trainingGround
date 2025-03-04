@@ -6,7 +6,7 @@ public class Employee extends Person{
     private String title;
 
     public Employee() {
-        System.out.println("In Employee defualt constructor.");
+        System.out.println("In Employee default constructor.");
     }
 
     public String getEmployeeID() {

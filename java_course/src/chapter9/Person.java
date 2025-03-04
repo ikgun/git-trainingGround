@@ -10,6 +10,11 @@ public class Person {
         System.out.println("In the Person default constructor.");
     }
 
+    public Person(String name) {
+        System.out.println("In the Person 2nd constructor. Name is set.");
+
+    }
+
     public String getName() {
         return name;
     }
