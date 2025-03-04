@@ -8,6 +8,6 @@ public class InheritanceTester {
         rectangle.print();
 
         Square square = new Square();
-        square.print();
+        square.print("square!");
     }
 }
