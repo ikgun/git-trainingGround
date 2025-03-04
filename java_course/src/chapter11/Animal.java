@@ -4,7 +4,7 @@ public abstract class Animal {
 
     abstract String makeSound();
 
-    public void eat(){
+    public void eat() {
         System.out.println("Animal eats.");
     }
 }
