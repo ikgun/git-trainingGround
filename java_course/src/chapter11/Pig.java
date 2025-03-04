@@ -2,7 +2,7 @@ package chapter11;
 
 public class Pig extends Animal {
     @Override
-    String makeSound() {
-        return "Oink oink!";
+    public void makeSound() {
+        System.out.println("Oink oink!");
     }
 }
