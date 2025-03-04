@@ -1,4 +1,4 @@
-import chapter10.Animal;
+package chapter10;
 
 public class Dog extends Animal {
     @Override
